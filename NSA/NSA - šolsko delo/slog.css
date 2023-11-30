@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    font-size: 1.lem;
+    color: #363337
+
+}
+
+h2{
+    font-size: 2.4em;
+    text-transform: uppercase;
+}
+
+p{  
+    color: blue;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+nav{
+    background-color: #0486db;
+    height: 60px; /*vedno enote zraven, razen %, em*/
+    line-height: 60px;
+    letter-spacing: 1.3px;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li:first-child{
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #0486db;
+    border-bottom: 3px solid #0486db;
+}
+
+#glava, #izpostavljena{
+    width: 100%;
+}
+
+#izpostavljeno > div, section{  /*pomeni: izberemo vse div, katerih starš je #izpostavljeno*/
+margin-left: auto;
+margin-right: auto;
+width: 12000px;
+}
